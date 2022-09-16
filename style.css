@@ -17,7 +17,7 @@ body{
 .diamond-l{
   
   position: relative;
-  padding-left: 42%;
+  padding-left: 47%;
   top: -11px;
   padding-bottom: 0%;
 }
@@ -43,34 +43,34 @@ body{
  .m-title{
   font-size: 20px;
   
-  text-align:right;
+  text-align:center;
  } 
   
 
 .popcorn {
-  color: white;
+  color: rgb(255, 254, 254);
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  padding-right: 60%;
+  left: -16px;
   position: relative;
-  bottom: 610px;
+  bottom: 300px;
  
 
 }
 
 .movies{
   
-  color: white;
+  color: rgb(254, 249, 249);
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  padding-right: 60%;
+ text-align: center;
   position: relative;
-  bottom: 565px;
-  right: -11px;
+  bottom: 337px;
+  right: 0px;
 }
 .circle{
   width: 77px;
   float: left;
-  margin-top: 119px;
-  margin-left: 0px;
+  margin-top: 135px;
+  margin-left: -13px;
   position: absolute;
   animation-name: example;
   animation-duration: 4s;
@@ -115,6 +115,62 @@ body{
   text-align: left;
   float: left;
   color: rgb(250, 248, 252);
-  top: -370px;
-  left: -100px;
+  top: -365px;
+  left: -43px;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidepanel  {
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  height: 250px;
+  top: 0;
+  left: 0;
+  background-color: rgb(58, 52, 52);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidepanel a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color:  rgb(135, 129, 129);
+  display: block;
+  transition: 0.3s;
+}
+
+.sidepanel a:hover {
+  color: #f1f1f1;
+}
+
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+}
+
+.openbtn {
+  font-size: 28px;
+  cursor: pointer;
+  background-color:   rgb(252, 16, 16);
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color:# rgb(252, 16, 16);
+}
+.nav-b{
+  position: rete;
+  align-items: center;
+  top: -358px;
+  left: 190px;
+
 }
