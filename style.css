@@ -8,10 +8,17 @@ body{
   position: relative;
   margin: 0%;
 }
-.diamond-header{
+.diamond-l{
+  
   position: relative;
   padding-left: 54%;
-  top: -3px;
+  top: 0px;
+  padding-bottom: 0%;
+}
+.diamond-header{
+  position: relative;
+  padding-left: 62%;
+  top: -142px;
   padding-bottom: 0%;
   
   
@@ -23,8 +30,8 @@ body{
 /* Add a black background color to the top navigation */
 .nav-b{
   position: relative;
-  top: -242px;
-  left: -4%;
+ top:-49px ;
+  left: -33%;
 }
 
  .m-title{
