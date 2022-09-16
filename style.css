@@ -50,7 +50,11 @@ body{
 .popcorn {
   color: rgb(255, 254, 254);
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+<<<<<<< HEAD
   left: -16px;
+=======
+ left:-16px;
+>>>>>>> 279b63d2a1f4cfb90785af0c926ab9fcda9e5dac
   position: relative;
   bottom: 300px;
  
@@ -63,7 +67,11 @@ body{
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
  text-align: center;
   position: relative;
+<<<<<<< HEAD
   bottom: 337px;
+=======
+  bottom: 330px;
+>>>>>>> 279b63d2a1f4cfb90785af0c926ab9fcda9e5dac
   right: 0px;
 }
 .circle{
@@ -115,6 +123,7 @@ body{
   text-align: left;
   float: left;
   color: rgb(250, 248, 252);
+<<<<<<< HEAD
   top: -365px;
   left: -43px;
 }
@@ -173,4 +182,8 @@ body {
   top: -358px;
   left: 190px;
 
+=======
+  top: -370px;
+  left: -10px;
+>>>>>>> 279b63d2a1f4cfb90785af0c926ab9fcda9e5dac
 }
