@@ -50,9 +50,9 @@ body{
 .popcorn {
   color: white;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  padding-right: 60%;
+ left:-16px;
   position: relative;
-  bottom: 610px;
+  bottom: 300px;
  
 
 }
@@ -63,8 +63,8 @@ body{
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   padding-right: 60%;
   position: relative;
-  bottom: 565px;
-  right: -11px;
+  bottom: 330px;
+  right: 0px;
 }
 .circle{
   width: 77px;
