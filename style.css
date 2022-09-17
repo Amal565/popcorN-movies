@@ -7,12 +7,14 @@
   justify-content: space-between;
   flex-direction: column;
 
+ 
+
 }
 body{
   position: relative;
   margin: 0%;
   box-sizing: border-box;
- 
+  
 }
 .diamond-l{
   
@@ -172,4 +174,83 @@ body {
     left: 43%;
   
 
+}
+.middle{
+ 
+
+  position:relative;
+  width: 100%;
+  height: 300px;
+  background: rgb(149, 111, 13);
+  left: 0px;
+  margin-top: 5px;
+  
+
+}
+
+.pm-art {
+
+  width: 100%;
+  height: 100px;
+  background: rgb(170, 167, 157);
+}
+.ad-0{
+  position: relative;
+  width:100%;
+  height:250px;
+  background: #b7a757;
+ 
+}.info-01{
+  background: rgb(226, 5, 5);
+  width: 100%;
+  height: 180px;
+ 
+ position: relative;
+}
+.add-1{
+  background: rgb(68, 58, 58);
+  width: 100%;
+  height: 180px;
+ 
+ position: relative;
+}
+.link-c{
+  position: relative;
+  width:100%;
+  height: 100px;
+  background: rgb(170, 167, 157);
+}
+.link-o{
+  position: relative;
+  width:100%;
+  height: 100px;
+  background: rgb(167, 10, 15);
+}
+.popcorn-bot{
+  background: rgb(64, 32, 132);
+  width: 100%;
+  height: 180px;
+  
+
+}
+.contact-page{
+  background: rgb(17, 184, 70);
+  width: 100%;
+  height: 180px;
+ 
+
+}
+.about{
+  background: rgb(21, 21, 21);
+  width: 100%;
+  height: 180px;
+  
+ 
+}
+.popcornmovies-art{
+  position: relative;
+  width: 80%;
+height: 90%;
+background: rgb(11, 146, 156);
+left: 40px;
 }
