@@ -109,6 +109,7 @@ body{
   font-size: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@800&display=swap");
 .wb{
   position: absolute;
   text-align: left;
@@ -116,7 +117,40 @@ body{
   color: rgb(250, 248, 252);
   top: -444px;
   left: -98px;
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: rainbow-slide 8s linear infinite;
+  background-size: 300% 100%;
+  background-image: linear-gradient(
+    90deg,
+    #e5600b 0,
+    #bfaf00 14%,
+    #37bb00 28%,
+    #25b5f5 43%,
+    #ca57fa 68%,
+    #fa3f2b 83%,
+    #e5600b
+  );
+  
+
 }
+
+@keyframes rainbow-slide {
+  0% {
+    background-position: 0 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  to {
+    background-position: 0 50%;
+  }
+}
+
 body {
   font-family: "Lato", sans-serif;
 }
@@ -259,8 +293,9 @@ top: 11px;
 
 }
 .pm-img{
-  z-index: 1;
-  position: relative;
-  bottom: 19px;
+position: relative;
+bottom: 119px;
+z-index: 1;
+
 
 }
