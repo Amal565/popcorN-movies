@@ -17,13 +17,13 @@ body{
 .diamond-l{
   
   position: relative;
-  padding-left: 47%;
+  padding-left: 45%;
   top: -11px;
   padding-bottom: 0%;
 }
 .diamond-header{
   position: relative;
-  padding-left: 49%;
+  padding-left: 47%;
   top: -194px;
   padding-bottom: 0%;
   
@@ -34,11 +34,7 @@ body{
 
 
 /* Add a black background color to the top navigation */
-.nav-b{
-  position: relative;
- top:-49px ;
-  left: -33%;
-}
+
 
  .m-title{
   font-size: 20px;
@@ -50,13 +46,9 @@ body{
 .popcorn {
   color: rgb(255, 254, 254);
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-<<<<<<< HEAD
-  left: -16px;
-=======
- left:-16px;
->>>>>>> 279b63d2a1f4cfb90785af0c926ab9fcda9e5dac
+  left: -74px;
   position: relative;
-  bottom: 300px;
+  bottom: 390px;
  
 
 }
@@ -65,14 +57,10 @@ body{
   
   color: rgb(254, 249, 249);
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
- text-align: center;
+  text-align: center;
   position: relative;
-<<<<<<< HEAD
-  bottom: 337px;
-=======
-  bottom: 330px;
->>>>>>> 279b63d2a1f4cfb90785af0c926ab9fcda9e5dac
-  right: 0px;
+  bottom: 424px;
+  right: 52px;
 }
 .circle{
   width: 77px;
@@ -123,9 +111,8 @@ body{
   text-align: left;
   float: left;
   color: rgb(250, 248, 252);
-<<<<<<< HEAD
-  top: -365px;
-  left: -43px;
+  top: -444px;
+  left: -98px;
 }
 body {
   font-family: "Lato", sans-serif;
@@ -174,16 +161,14 @@ body {
 }
 
 .openbtn:hover {
-  background-color:# rgb(252, 16, 16);
+  background-color: rgb(252, 16, 16);
 }
 .nav-b{
-  position: rete;
   align-items: center;
-  top: -358px;
-  left: 190px;
+  
+    position: relative;
+   top:-380px ;
+    left: 43%;
+  
 
-=======
-  top: -370px;
-  left: -10px;
->>>>>>> 279b63d2a1f4cfb90785af0c926ab9fcda9e5dac
 }
