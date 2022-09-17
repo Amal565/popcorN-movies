@@ -55,12 +55,13 @@ body{
 
 .movies{
   
-  color: rgb(254, 249, 249);
+  color: rgb(252, 249, 249);
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  text-align: center;
+    bottom: 428px;
+    left: -49px;
   position: relative;
-  bottom: 424px;
-  right: 52px;
+  
+
 }
 .circle{
   width: 77px;
@@ -154,7 +155,7 @@ body {
 .openbtn {
   font-size: 28px;
   cursor: pointer;
-  background-color:   rgb(252, 16, 16);
+  background-color:  rgb(252, 16, 16);
   color: white;
   padding: 10px 15px;
   border: none;
