@@ -338,10 +338,108 @@ top: 11px;
   .info-01{
     font-family: 'Lato', sans-serif;
  
-    font-size:25px;
+    text-align: left;
   }
  .info-text-1{
-  position: relative;
-  top: 15px;
-  left: 15px;
+position: relative;
+padding-top: 20px;
+padding-left:17px;
+font-size: 1.5rem;
+color: white;
+
+
  }
+ .info-text-2{
+  position: relative;
+  padding-top: 0px;
+  padding-left:17px;
+  font-size: 3rem;
+  color: white;
+  
+  
+   }
+   .info-text-3{
+    position:relative;
+    padding-top: 23px;
+    padding-left:16px;
+    bottom: 60px;
+    font-size: 3rem;
+  color: white;
+    
+     }
+     .info-text-4{
+      position: relative;
+      padding-top: 20px;
+      padding-left:17px;
+      bottom: 94px;
+      color: white;
+      font-size: 3rem;
+      
+      
+       }
+
+
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+  background:ivory;
+  width:100%;
+  height:100%;
+  padding:0;
+  margin:0;
+  overflow-x:hidden;
+}
+#text{
+  text-align:center;
+  position:relative;
+  top:200px;
+  font-size:3rem;
+  
+}
+.text0,.text2{
+    color: black;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+.text1,.text3{
+    color: black;
+  -webkit-text-fill-color: #bc0000; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+#dummy{
+  position:relative;
+  height:100vh;
+  width:100%;
+}
+#back{
+  position:relative;
+ padding-top:50%;
+  text-align:center;
+ font-size:1.5em;
+  cursor:pointer;
+}
+
+
+@media only screen and (max-width: 600px) {
+  #back{
+    cursor:none;
+    font-size:0.8em;
+  }
+  #text{
+        top:70px;
+    font-size:2.25em;
+  }
+
+}
