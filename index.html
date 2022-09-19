@@ -9,6 +9,11 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
 <link rel="stylesheet" href="style.css" type="text/css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js" integrity="sha512-Mf/xUqfWvDIr+1B6zfnIDIiG7XHzyP/guXUWgV6PgaQoIFeXkJQR5XWh9fqAiCiRCpemabt3naV4jhDWVnuYDQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/ScrollTrigger.min.js" integrity="sha512-YzMW3OzvgtVpIIPPpjnCy8wVTq5slHRrxnLH1oD5dkVjZf8+8DJYd+GYmmWXZNmroTqKXFFzFS3XZ/LBvaNgZg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.3/jquery.scrollTo.min.js" integrity="sha512-PsJ1f4lw0Jrga4wbDOvdWs9DFl88C1vlcH2VQYqgljHBmzmqtGivUkzRHWx2ZxFlnysKUcROqLeuOpYh9q4YNg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="Script.js"></script>
 </head>
 <body>
@@ -69,7 +74,8 @@
                 </div>
                 </div>
                
-                
+           
+
           
         
         <div class="middle">
@@ -97,20 +103,24 @@
             
           </div>
     
-        
         <div class="add-1">
-          <div id="text" class="text0">POPCORN MOVIES </div>
-    <div id="text" class="text1">POPCORN MOVIES</div>
-    <div id="text" class="text2">FOLLOW US</div>
-    <div id="text" class="text3">FOLLOW US</div>
-  
-  
-  
-  <div id="dummy">
-    <div id="back">BACK TO TOP</div>
-  </div>
+          <div class="add-1">
+            <div>
+            <div id="text" class="text0">POPCORN MOVIES </div>
+      <div id="text" class="text1">POPCORN MOVIES</div>
+      <div id="text" class="text2">FOLLOW US</div>
+      <div id="text" class="text3">FOLLOW US</div>
     
+    
+    
+    <div id="dummy">
+      <div id="back"></div>
+    </div>
+    <a href="https://t.me/popcorn_grp" class="top">JOIN US</a>
+      
+          </div>
         </div>
+       
      
         <div class="link-c">
     
@@ -129,9 +139,54 @@
         <div class="about">
     
         </div>
-        
-    
-    
+        <script>
+          
+    gsap.to('.text0',{
+    x:'20%',rotate:10,duration:0.85,scrollTrigger:{
+      trigger:'.text0',
+      scrub:true,
+      start:'top 20%'
+    }
+  })
+  gsap.to('.text2',{
+    x:'20%',rotate:10,duration:0.85,scrollTrigger:{
+      trigger:'.text2',
+      scrub:true,
+      start:'top 40%'
+    }
+  })
+  gsap.to('.text1',{
+    x:'-20%',rotate:-10,duration:0.85,scrollTrigger:{
+      trigger:'.text1',
+      scrub:true,
+      start:'top 30%'
+    }
+  })
+  gsap.to('.text3',{
+    x:'-20%',rotate:-10,duration:0.85,scrollTrigger:{
+      trigger:'.text3',
+      scrub:true,
+      start:'top 40%'
+    }
+  })
+  document.querySelector('#back').addEventListener('click',()=>{
+        gsap.to(window, {duration: 1, scrollTo:'body'});
+  
+  })
+  $(window).scroll(function() {
+    if ($(this).scrollTop()< 1090) {
+        $('.top').fadeOut();
+     }
+    else {
+      $('.top').fadeIn();
+     }
+ });
+
+
+  
+  
+        </script>
+  
     
    
           

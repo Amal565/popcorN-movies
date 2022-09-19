@@ -246,9 +246,9 @@ background: linear-gradient(90deg, rgba(255,180,18,1) 34%, rgba(255,150,2,1) 100
  position: relative;
 }
 .add-1{
-  background: rgb(68, 58, 58);
+  background: rgb(250, 249, 249);
   width: 100%;
-  height: 180px;
+  height: 340px;
  
  position: relative;
 }
@@ -402,7 +402,7 @@ body{
 #text{
   text-align:center;
   position:relative;
-  top:200px;
+  top:20px;
   font-size:3rem;
   
 }
@@ -442,4 +442,36 @@ body{
     font-size:2.25em;
   }
 
+}
+
+
+/* join button on scrolling*/
+
+
+.top {
+
+  
+  position: absolute;
+  bottom: 30px;      
+  margin-right:10px; 
+  place-self: end;
+
+  left: 200px;
+  
+  /* visual styling */
+  text-decoration: none;
+  padding: 10px;
+  font-family: sans-serif;
+  color: #fff;
+  background: #000;
+  border-radius: 100px;
+  white-space: nowrap;
+}
+
+
+
+/* remove the below if you don't want smooth scrolling */
+html,
+body {
+  scroll-behavior: smooth;
 }
